@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flint Community Pop-Up Info Table Flyer | ISUPK Outreach</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #090d16;
+      color: #f8fafc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .flyer-container {
+      width: 8.5in;
+      height: 11in;
+      background: linear-gradient(145deg, #111827 0%, #0b0f19 100%);
+      border: 3px solid #f59e0b;
+      border-radius: 16px;
+      padding: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8), 0 0 30px rgba(245, 158, 11, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .watermark {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0.05;
+      width: 450px;
+      pointer-events: none;
+    }
+
+    .flyer-header {
+      text-align: center;
+      border-bottom: 2px solid rgba(245, 158, 11, 0.3);
+      padding-bottom: 1.5rem;
+    }
+
+    .flyer-logo {
+      width: 90px;
+      height: 90px;
+      border-radius: 12px;
+      border: 2px solid #f59e0b;
+      box-shadow: 0 0 20px rgba(245, 158, 11, 0.4);
+      margin-bottom: 0.75rem;
+    }
+
+    .badge-top {
+      display: inline-block;
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid #f59e0b;
+      color: #f59e0b;
+      padding: 0.35rem 1rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.3rem;
+      color: #fbbf24;
+      line-height: 1.15;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+    }
+
+    .tagline {
+      font-size: 1.05rem;
+      color: #9ca3af;
+      font-weight: 500;
+    }
+
+    .flyer-body {
+      margin: 1.5rem 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .event-box {
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid #f59e0b;
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      text-align: center;
+    }
+
+    .event-box h2 {
+      font-family: 'Cinzel', serif;
+      color: #f59e0b;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .event-details {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 0.75rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #f8fafc;
+    }
+
+    .detail-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .feature-card {
+      background: #1f2937;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      padding: 1rem;
+    }
+
+    .feature-card h3 {
+      color: #f59e0b;
+      font-size: 1rem;
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .feature-card p {
+      font-size: 0.85rem;
+      color: #9ca3af;
+      line-height: 1.4;
+    }
+
+    .demographics-banner {
+      background: linear-gradient(90deg, rgba(245, 158, 11, 0.2), rgba(217, 119, 6, 0.2));
+      border-left: 4px solid #f59e0b;
+      padding: 0.85rem 1.25rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      color: #e2e8f0;
+      text-align: center;
+    }
+
+    .flyer-footer {
+      border-top: 2px solid rgba(245, 158, 11, 0.3);
+      padding-top: 1.25rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-info {
+      font-size: 0.85rem;
+      color: #9ca3af;
+    }
+
+    .footer-info strong {
+      color: #f8fafc;
+    }
+
+    .qr-placeholder {
+      width: 75px;
+      height: 75px;
+      background: #fff;
+      border-radius: 8px;
+      padding: 4px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #000;
+      font-size: 0.65rem;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .print-bar {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 100;
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .btn-print {
+      background: #f59e0b;
+      color: #000;
+      font-weight: 800;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+    }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .flyer-container { box-shadow: none; border-color: #000; }
+      .print-bar { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="print-bar">
+    <button class="btn-print" onclick="window.print()">🖨️ Print / Save PDF</button>
+    <a href="index.html" class="btn-print" style="background: #374151; color: #fff; text-decoration: none;">← All Flyers</a>
+  </div>
+
+  <div class="flyer-container">
+    <img src="../assets/logo.jfif" alt="Watermark Logo" class="watermark">
+
+    <!-- Header -->
+    <div class="flyer-header">
+      <img src="../assets/logo.jfif" alt="ISUPK Logo" class="flyer-logo">
+      <br>
+      <span class="badge-top">ISUPK 501(c)(3) Non-Profit • Mid-Michigan Educational Campaign</span>
+      <h1>Restoring Faith, Identity & Community</h1>
+      <p class="tagline">Heritage Education & Scripture Awareness Outreach in Flint</p>
+    </div>
+
+    <!-- Body -->
+    <div class="flyer-body">
+
+      <!-- Event Details Box -->
+      <div class="event-box">
+        <h2>FLINT PUBLIC SCRIPTURE INFO TABLE</h2>
+        <div class="event-details">
+          <div class="detail-item">📍 S. Saginaw St & E. 2nd St</div>
+          <div class="detail-item">📅 Every Saturday</div>
+          <div class="detail-item">⏰ 1:00 PM – 4:00 PM</div>
+        </div>
+      </div>
+
+      <!-- Feature Grid -->
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>📖 Free Study Pamphlets</h3>
+          <p>Pick up physical copy study guides on Deuteronomy 28, biblical lineage history, and moral mentorship.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>📜 12-Tribes Reference Map</h3>
+          <p>Free full-color chart detailing biblical dispersons and modern identities of the 12 Tribes of Israel.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>💬 Open Scriptural Q&A</h3>
+          <p>Engage in respectful scripture study and ask questions regarding prophecy and heritage.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>🤝 Community Family Aid</h3>
+          <p>Learn about free food box distributions, winter coat drives, and youth mentorship programs.</p>
+        </div>
+      </div>
+
+      <!-- Demographics Focus Banner -->
+      <div class="demographics-banner">
+        <strong>Serving Our Mid-Michigan Communities:</strong> Dedicated scripture outreach for African American, Hispanic/Latino, and Native American families across Flint & Genesee County.
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="flyer-footer">
+      <div class="footer-info">
+        <div style="font-size: 1.05rem; font-weight: 700; color: #f59e0b; margin-bottom: 0.25rem;">
+          ISUPK Educational Ministry
+        </div>
+        <div>📍 Michigan Regional Hub: <strong>16134 Moross Rd, Detroit, MI 48205</strong></div>
+        <div>📞 Phone / Info: <strong>267-353-6021</strong> | 🌐 Website: <strong>isupk.com</strong></div>
+      </div>
+
+      <div class="qr-placeholder">
+        <div style="font-size: 1.5rem;">📱</div>
+        <span>SCAN FOR<br>INFO KIT</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meeting Close & Decision Card | ISUPK Outreach Material</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #090d16;
+      color: #f8fafc;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      gap: 2rem;
+    }
+
+    .card-page {
+      width: 8.5in;
+      height: 11in;
+      background: #fff;
+      color: #000;
+      padding: 0.4in;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      border-radius: 8px;
+      position: relative;
+    }
+
+    .crop-mark-center {
+      border-bottom: 2px dashed #94a3b8;
+      width: 100%;
+      margin: 1rem 0;
+      position: relative;
+      text-align: center;
+    }
+
+    .crop-mark-center span {
+      background: #fff;
+      padding: 0 10px;
+      font-size: 0.7rem;
+      color: #64748b;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    /* Single Close Card Unit (5.5" x 8.5" Half-Sheet) */
+    .close-card-unit {
+      border: 2px solid #000;
+      border-radius: 8px;
+      padding: 1.2rem;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 4.8in;
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #d97706;
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .card-logo {
+      width: 44px;
+      height: 44px;
+      border-radius: 6px;
+      border: 1px solid #d97706;
+    }
+
+    .card-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.25rem;
+      font-weight: 900;
+      color: #000;
+      line-height: 1.1;
+    }
+
+    .card-subtitle {
+      font-size: 0.7rem;
+      color: #d97706;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .card-badge {
+      background: #fef3c7;
+      border: 1px solid #d97706;
+      color: #92400e;
+      font-size: 0.65rem;
+      font-weight: 800;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    .call-to-action-headline {
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      text-align: center;
+      background: #0f172a;
+      color: #fbbf24;
+      padding: 0.4rem;
+      border-radius: 4px;
+      margin-bottom: 0.75rem;
+    }
+
+    .checkbox-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .checkbox-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .checkbox-item input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+      accent-color: #d97706;
+    }
+
+    .form-fields {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      padding: 0.6rem;
+      border-radius: 6px;
+    }
+
+    .field-line {
+      display: flex;
+      flex-direction: column;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #334155;
+    }
+
+    .field-line input {
+      border: none;
+      border-bottom: 1px solid #000;
+      background: transparent;
+      padding: 2px 0;
+      font-size: 0.85rem;
+      font-family: inherit;
+    }
+
+    .field-line.full {
+      grid-column: 1 / -1;
+    }
+
+    .tear-stub {
+      border-top: 2px dashed #000;
+      margin-top: 0.5rem;
+      padding-top: 0.4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.7rem;
+      color: #475569;
+    }
+
+    .print-bar {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 100;
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .btn-print {
+      background: #f59e0b;
+      color: #000;
+      font-weight: 800;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+    }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .card-page { box-shadow: none; border-radius: 0; padding: 0.25in; }
+      .print-bar { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="print-bar">
+    <button class="btn-print" onclick="window.print()">🖨️ Print 2-Up Close Cards</button>
+    <a href="index.html" class="btn-print" style="background: #374151; color: #fff; text-decoration: none;">← All Flyers</a>
+  </div>
+
+  <!-- Page 1: Side A - Front Decision & Contact Close (2-Up Per Sheet) -->
+  <div class="card-page">
+    <div style="text-align: center; font-size: 0.75rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em; color: #64748b;">
+      SIDE A: MEETING CLOSE & DECISION CARD (HAND OUT AT END OF MEETING)
+    </div>
+
+    <!-- Top Card Unit -->
+    <div class="close-card-unit">
+      <div class="card-header">
+        <div class="card-brand">
+          <img src="../assets/logo.jfif" alt="ISUPK Logo" class="card-logo">
+          <div>
+            <div class="card-title">ISUPK Heritage Outreach</div>
+            <div class="card-subtitle">Mid-Michigan Decision & Connection Card</div>
+          </div>
+        </div>
+        <div class="card-badge">501(c)(3) Non-Profit</div>
+      </div>
+
+      <div class="call-to-action-headline">
+        TAKE YOUR NEXT STEP — RECLAIM YOUR HERITAGE & FAITH
+      </div>
+
+      <div class="checkbox-group">
+        <label class="checkbox-item">
+          <input type="checkbox"> <strong>[ ] YES!</strong> Mail me a FREE Printed 12-Tribes Scriptural Chart & Study Kit
+        </label>
+        <label class="checkbox-item">
+          <input type="checkbox"> <strong>[ ] YES!</strong> Register me for Tuesday & Thursday Live Zoom Scripture Classes (7:00 PM)
+        </label>
+        <label class="checkbox-item">
+          <input type="checkbox"> <strong>[ ] YES!</strong> Send me information on Community Aid (Free Food Boxes & Winter Clothing)
+        </label>
+        <label class="checkbox-item">
+          <input type="checkbox"> <strong>[ ] YES!</strong> Request a One-on-One Bible Study or Mentorship Session
+        </label>
+      </div>
+
+      <div class="form-fields">
+        <div class="field-line">
+          FULL NAME
+          <input type="text" placeholder="First & Last Name">
+        </div>
+        <div class="field-line">
+          PHONE / EMAIL
+          <input type="text" placeholder="Phone Number or Email">
+        </div>
+        <div class="field-line full">
+          MAILING ADDRESS
+          <input type="text" placeholder="Street Address, City, State, Zip">
+        </div>
+      </div>
+
+      <div class="tear-stub">
+        <span>✂️ Hand filled stub to meeting host or drop in box</span>
+        <span>Detroit Hub: 16134 Moross Rd | 📞 267-353-6021</span>
+      </div>
+    </div>
+
+    <!-- Cut Mark -->
+    <div class="crop-mark-center">
+      <span>✂️ Cut Here to Separate 2 Cards Per Page ✂️</span>
+    </div>
+
+    <!-- Bottom Card Unit (Exact Duplicate for 2-Up Printing) -->
+    <div class="close-card-unit">
+      <div class="card-header">
+        <div class="card-brand">
+          <img src="../assets/logo.jfif" alt="ISUPK Logo" class="card-logo">
+          <div>
+            <div class="card-title">ISUPK Heritage Outreach</div>
+            <div class="card-subtitle">Mid-Michigan Decision & Connection Card</div>
+          </div>
+        </div>
+        <div class="card-badge">501(c)(3) Non-Profit</div>
+      </div>
+
+      <div class="call-to-action-headline">
+        TAKE YOUR NEXT STEP — RECLAIM YOUR HERITAGE & FAITH
+      </div>
+
+      <div class="checkbox-group">
+        <label class="checkbox-item">
+          <input type="checkbox"> <strong>[ ] YES!</strong> Mail me a FREE Printed 12-Tribes Scriptural Chart & Study Kit
+        </label>
+        <label class="checkbox-item">
+          <input type="checkbox"> <strong>[ ] YES!</strong> Register me for Tuesday & Thursday Live Zoom Scripture Classes (7:00 PM)
+        </label>
+        <label class="checkbox-item">
+          <input type="checkbox"> <strong>[ ] YES!</strong> Send me information on Community Aid (Free Food Boxes & Winter Clothing)
+        </label>
+        <label class="checkbox-item">
+          <input type="checkbox"> <strong>[ ] YES!</strong> Request a One-on-One Bible Study or Mentorship Session
+        </label>
+      </div>
+
+      <div class="form-fields">
+        <div class="field-line">
+          FULL NAME
+          <input type="text" placeholder="First & Last Name">
+        </div>
+        <div class="field-line">
+          PHONE / EMAIL
+          <input type="text" placeholder="Phone Number or Email">
+        </div>
+        <div class="field-line full">
+          MAILING ADDRESS
+          <input type="text" placeholder="Street Address, City, State, Zip">
+        </div>
+      </div>
+
+      <div class="tear-stub">
+        <span>✂️ Hand filled stub to meeting host or drop in box</span>
+        <span>Detroit Hub: 16134 Moross Rd | 📞 267-353-6021</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page 2: Side B - Back Takeaway Reference & Meeting Details -->
+  <div class="card-page" style="page-break-before: always;">
+    <div style="text-align: center; font-size: 0.75rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em; color: #64748b;">
+      SIDE B: BACK TAKEAWAY REFERENCE (PARTICIPANT KEEPS THIS PORTION)
+    </div>
+
+    <!-- Top Card Back Unit -->
+    <div class="close-card-unit" style="background: #0f172a; color: #fff; border-color: #f59e0b;">
+      <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f59e0b; padding-bottom: 0.4rem; margin-bottom: 0.5rem;">
+        <span style="font-family: 'Cinzel', serif; color: #fbbf24; font-weight: bold; font-size: 1rem;">KEEP THIS PORTION — MEETING REFERENCE</span>
+        <span style="font-size: 0.7rem; color: #9ca3af;">isupk.com</span>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 0.75rem; align-items: center;">
+        <div>
+          <h4 style="color: #f59e0b; font-size: 0.95rem; margin-bottom: 0.25rem; font-family: 'Cinzel', serif;">Upcoming Flint & Mid-Michigan Events:</h4>
+          <ul style="font-size: 0.75rem; color: #cbd5e1; list-style: none; display: flex; flex-direction: column; gap: 0.2rem;">
+            <li>📍 <strong>Flint Table:</strong> Saturdays 1–4 PM (S. Saginaw St)</li>
+            <li>💻 <strong>Zoom Class:</strong> Tuesdays & Thursdays 7 PM EST</li>
+            <li>🤝 <strong>Aid Drive:</strong> 3rd Sunday Monthly (Riverbank Park)</li>
+          </ul>
+        </div>
+
+        <div style="background: #fff; color: #000; padding: 6px; border-radius: 6px; text-align: center; font-size: 0.65rem; font-weight: bold;">
+          <div style="font-size: 1.2rem;">📱</div>
+          ONLINE REGISTRATION
+        </div>
+      </div>
+
+      <div style="background: rgba(245, 158, 11, 0.15); border-left: 3px solid #f59e0b; padding: 0.4rem 0.6rem; margin-top: 0.5rem; font-size: 0.75rem; font-style: italic; color: #fbbf24;">
+        "Hear, LORD, the voice of Judah, and bring him unto his people..." — Deuteronomy 33:7
+      </div>
+
+      <div style="font-size: 0.7rem; color: #9ca3af; margin-top: 0.5rem; text-align: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 0.3rem;">
+        ISUPK Detroit Hub: 16134 Moross Rd, Detroit, MI 48205 | Hotline: 267-353-6021
+      </div>
+    </div>
+
+    <!-- Cut Mark -->
+    <div class="crop-mark-center">
+      <span>✂️ Cut Here to Separate 2 Cards Per Page ✂️</span>
+    </div>
+
+    <!-- Bottom Card Back Unit -->
+    <div class="close-card-unit" style="background: #0f172a; color: #fff; border-color: #f59e0b;">
+      <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f59e0b; padding-bottom: 0.4rem; margin-bottom: 0.5rem;">
+        <span style="font-family: 'Cinzel', serif; color: #fbbf24; font-weight: bold; font-size: 1rem;">KEEP THIS PORTION — MEETING REFERENCE</span>
+        <span style="font-size: 0.7rem; color: #9ca3af;">isupk.com</span>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 0.75rem; align-items: center;">
+        <div>
+          <h4 style="color: #f59e0b; font-size: 0.95rem; margin-bottom: 0.25rem; font-family: 'Cinzel', serif;">Upcoming Flint & Mid-Michigan Events:</h4>
+          <ul style="font-size: 0.75rem; color: #cbd5e1; list-style: none; display: flex; flex-direction: column; gap: 0.2rem;">
+            <li>📍 <strong>Flint Table:</strong> Saturdays 1–4 PM (S. Saginaw St)</li>
+            <li>💻 <strong>Zoom Class:</strong> Tuesdays & Thursdays 7 PM EST</li>
+            <li>🤝 <strong>Aid Drive:</strong> 3rd Sunday Monthly (Riverbank Park)</li>
+          </ul>
+        </div>
+
+        <div style="background: #fff; color: #000; padding: 6px; border-radius: 6px; text-align: center; font-size: 0.65rem; font-weight: bold;">
+          <div style="font-size: 1.2rem;">📱</div>
+          ONLINE REGISTRATION
+        </div>
+      </div>
+
+      <div style="background: rgba(245, 158, 11, 0.15); border-left: 3px solid #f59e0b; padding: 0.4rem 0.6rem; margin-top: 0.5rem; font-size: 0.75rem; font-style: italic; color: #fbbf24;">
+        "Hear, LORD, the voice of Judah, and bring him unto his people..." — Deuteronomy 33:7
+      </div>
+
+      <div style="font-size: 0.7rem; color: #9ca3af; margin-top: 0.5rem; text-align: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 0.3rem;">
+        ISUPK Detroit Hub: 16134 Moross Rd, Detroit, MI 48205 | Hotline: 267-353-6021
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

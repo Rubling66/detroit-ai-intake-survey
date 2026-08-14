@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Folleto en Español | ISUPK Mid-Michigan Outreach</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #090d16;
+      color: #f8fafc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .flyer-container {
+      width: 8.5in;
+      height: 11in;
+      background: linear-gradient(145deg, #111827 0%, #064e3b 100%);
+      border: 3px solid #10b981;
+      border-radius: 16px;
+      padding: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8), 0 0 30px rgba(16, 185, 129, 0.2);
+    }
+
+    .flyer-header {
+      text-align: center;
+      border-bottom: 2px solid rgba(16, 185, 129, 0.3);
+      padding-bottom: 1.5rem;
+    }
+
+    .flyer-logo {
+      width: 90px;
+      height: 90px;
+      border-radius: 12px;
+      border: 2px solid #10b981;
+      box-shadow: 0 0 20px rgba(16, 185, 129, 0.4);
+      margin-bottom: 0.75rem;
+    }
+
+    .badge-top {
+      display: inline-block;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid #10b981;
+      color: #10b981;
+      padding: 0.35rem 1rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.1rem;
+      color: #10b981;
+      line-height: 1.15;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+    }
+
+    .event-box {
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid #10b981;
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: center;
+      margin: 1.5rem 0;
+    }
+
+    .event-box h2 {
+      font-family: 'Cinzel', serif;
+      color: #fbbf24;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .feature-card {
+      background: #1f2937;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      padding: 1rem;
+    }
+
+    .feature-card h3 {
+      color: #10b981;
+      font-size: 1rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .feature-card p {
+      font-size: 0.85rem;
+      color: #9ca3af;
+    }
+
+    .flyer-footer {
+      border-top: 2px solid rgba(16, 185, 129, 0.3);
+      padding-top: 1.25rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .print-bar {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 100;
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .btn-print {
+      background: #10b981;
+      color: #000;
+      font-weight: 800;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .flyer-container { box-shadow: none; border-color: #000; }
+      .print-bar { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="print-bar">
+    <button class="btn-print" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+    <a href="index.html" class="btn-print" style="background: #374151; color: #fff; text-decoration: none;">← Todos los Folletos</a>
+  </div>
+
+  <div class="flyer-container">
+    <!-- Header -->
+    <div class="flyer-header">
+      <img src="../assets/logo.jfif" alt="Logo ISUPK" class="flyer-logo">
+      <br>
+      <span class="badge-top">Organización 501(c)(3) Sin Fines de Lucro • Mid-Michigan</span>
+      <h1>RESTAURANDO LA FE Y LA FAMILIA</h1>
+      <p style="color: #9ca3af; font-size: 1.05rem;">Educación Bíblica e Identidad Histórica en Español para Familias Hispanas e Indígenas</p>
+    </div>
+
+    <!-- Event Box -->
+    <div class="event-box">
+      <h2>RECURSOS EDUCATIVOS GRATUITOS EN ESPAÑOL</h2>
+      <p style="font-size: 1.1rem; color: #f8fafc; margin-top: 0.5rem;">
+        Solicite folletos impresos gratuitos, mapas de las 12 tribus y enlaces para clases bíblicas virtuales.
+      </p>
+    </div>
+
+    <!-- Features -->
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>📖 Folletos Bíblicos Gratuitos</h3>
+        <p>Guías de estudio traducidas al español que explican la historia de las tribus y el propósito moral.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>📜 Mapa de las 12 Tribus</h3>
+        <p>Tabla a color que conecta las profecías bíblicas con los pueblos hispanos e indígenas de América.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>💻 Clases Virtuales</h3>
+        <p>Participe en clases semanales de estudio bíblico con instructores dedicados.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>🤝 Ayuda Comunitaria</h3>
+        <p>Programas de apoyo familiar, entrega de alimentos y abrigos de invierno en Flint y Saginaw.</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="flyer-footer">
+      <div>
+        <div style="font-size: 1.1rem; font-weight: 700; color: #10b981;">Ministerio Educativo ISUPK</div>
+        <div style="font-size: 0.85rem; color: #9ca3af;">Sitio Web: <strong>http://localhost:8080/resources.html</strong></div>
+        <div style="font-size: 0.85rem; color: #9ca3af;">Teléfono: <strong>267-353-6021</strong> | Sede Regional: <strong>16134 Moross Rd, Detroit, MI</strong></div>
+      </div>
+
+      <div style="background: #fff; padding: 6px; border-radius: 8px; color: #000; font-size: 0.7rem; font-weight: bold; text-align: center;">
+        📱 ESCANEE PARA<br>OBTENER MATERIALES
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

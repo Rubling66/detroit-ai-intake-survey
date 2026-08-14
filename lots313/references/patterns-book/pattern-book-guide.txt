@@ -1,0 +1,725 @@
+THIS USED TO BE NORMAL
+PATTERN BOOK HOMES
+FOR 21ST CENTURY
+MICHIGAN
+
+CONTENTS
+ACKNOWLEDGMENTS HOLD HARMLESS STATEMENT 4-5
+INTRODUCTION 6-7
+PART I: THIS USED TO BE NORMAL 8-15
+PART II: ENABLING THE NEIGHBORHOODS WE DESIRE 16-27
+PART III: DESIGN & FINANCIAL CONSIDERATIONS 28-41
+PART IV: SCHEMATICS 42-49
+ADDITIONAL RESOURCES 50-51
+
+ACKNOWLEDGMENTS
+This publication was made possible by a partnership between the Michigan Municipal League and the Michigan Economic Development Corporation. Project ideation and narrative content were authored by Melissa Milton-Pung, MHP, EDFP, with Richard Murphy, AICP. Architectural drawings and design considerations are the work of Daniel E. Bollman, AIA, and Amanda Harrell-Seyburn, Associate AIA of East Arbor Architecture. Graphic design and layout were carried out by Piper & Gold Public Relations. Special thanks to Dr. Rebecca Price of the Art, Architecture and Engineering Library at the University of Michigan for her invaluable assistance in primary research and for the use of the historical context research conducted by her student team (Anthony Erebor, Rachel London, and Lyse Messmer) for their 2021 Clark Library Exhibit, "Buying Home, Selling America: the House Catalog, 1906-1966." Additional thanks to the support and encouragement received from the Michigan State Land Bank Authority and the many practitioners in the field who were generous with their time, experience, and advice. Copyright 2022
+east arbor architecture
+4 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+HOLD HARMLESS STATEMENT
+
+This Pattern Book for new infill construction is focused on multi-unit housing solutions based on built historic precedents and primary documentary research. In presenting replicable, context-sensitive designs for use in creating new infill construction of duplexes and fourplexes, our goal is to enrich the urban fabric of neighborhoods within existing downtownadjacent Michigan neighborhoods.
+In championing infill and the concentration of new housing units within existing infrastructure, our focus is on vacant lots laid bare by blight removal or the utilization of lots never built upon. The building concepts, sample interior layouts, and open-source construction documents presented in this publication are intended for construction on vacant parcels in existing neighborhoods or redevelopment sites. In no way is this manual or the recommendations contained herein an endorsement for teardowns of existing historic housing units.
+
+Visual and written recommendations are provided for housing form/massing, lot placement, and exterior finishes complementary to existing neighborhoods. Sample construction documents are presented without official seal. Surveying, Landscape Architecture, Structural Engineering, and Site Engineering are outside of the scope of this endeavor. Each building site and its accompanying circumstances are unique. Statewide public distribution necessitated cautionary omissions in the final set. These omissions must be addressed by design professionals familiar with the chosen site. Verification of local conditions, including lot irregularities, soil conditions, snow loads, and numerous other factors, will need to be confirmed by professionals who will address the many regional variations. In conclusion, it is incumbent on the groups or individuals who proceed with one or more of the model plans presented in this publication to conduct their own due diligence.
+
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 5
+
+INTRODUCTION
+Michigan has a rich housing stock, spanning in origin from the early nineteenth century to the present day, offering a diverse array of forms and styles. Many homes are "vernacular" styles, the common, everyday building language adapted to the climate of the Great Lakes region. Some examples echo national housing styles popularized by pattern books and mass marketing, with Victorian-era styles, pre-Depression kit homes, and post-World War II tract developments occupying a substantial portion of this portfolio and mid-century modern suburban homes currently enjoying a popular revival. Absent from this brief story is evidence of our multi-family homes once abundant in Michigan cities.
+This manual touches upon the history of housing development in the United States and Michigan, including the duplexes and fourplexes commonly constructed until the mid-twentieth century. It offers models for intertwining smaller-scale housing options into the existing urban fabric. It is inspired by the patterns of historic precedents that worked well before Federal housing policy and local zoning ordinances shifted public opinion to the primacy of single-family housing.
+
+Michigan Municipal League Pattern Book Four Unit Prototype Upper Level
+9 June, 2022 east arbor architecture
+
+6 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+THIS APPROACH IS FAR FROM REVOLUTIONARY. IN FACT, IT IS A FORM OF REVIVAL.
+This work is informed by the desires of Michigan's increasingly diverse population, shrinking average household size, and shifting housing market demands influenced by aspirations for walkability, housing affordability, and climate action.
+Many Michigan neighborhoods were built based on the pattern books and kit home manuals studied during our research. When considering what Michigan cities and villages will tolerate or embrace versus the current trends of other places, we place this work within the context of national trends and experiments presently underway across the United States. In breaking new ground while these (re)emerging trends are happening around them, local leaders and developers can rely on a menu of options tailored to our state's landscape and our communities' unique identities. Our approach of critical regionalism is calibrated to empower Michigan municipalities to feel like they can do this work without going off into left field, to build new in a manner that shares genetic material with the housing stock already familiar.
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 7
+
+PART I
+THIS USED TO BE NORMAL
+
+THE GREAT URBANIZATION
+During the early twentieth century, Michigan shifted from an agrarian economy to one heavily reliant on industrialization, particularly the auto industry. People migrated to Michigan from all over the country for Ford's "$5 a day" deal and similar draws by other auto manufacturers, occupying all manner of "double houses" and "rooms to let." Demand for safe, clean housing led to the creation of multi-family units and apartments.
+During the early twentieth century, as part of the Great Migration and other pre-WWII demographic shifts, millions of workers and their families moved from the rural South to the industrial North.
+The housing markets in growing city centers were strained by the need to accommodate the rapid growth of affordable housing.
+Thousands of units were constructed quickly and densely to provide shelter and form community.
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 9
+
+In Detroit and other automotive manufacturing cities across the state, six-unit buildings of "cold water flats" were built, so named because they had basic plumbing but not the luxury of hot water. These flats were constructed as large houses, often with wide, shared porches and common hallways. Still others were made from converted aging mansions. Such smaller-sized unit housing choices provided a sense of community among tenants and yet also offered privacy and affordability.
+Out of necessity, most of these multifamily dwellings were located within walking distance from employers or the nearest streetcar. Many were used as flexible ways for families or extended relations to live together. Today, we would call them duplexes, triplexes, "quads" or fourplexes, and small apartment buildings.
+10 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+People migrated to Michigan from all over the country for Ford's "$5 a day" deal and similar draws by other auto manufacturers, occupying all manner of "double houses" and "rooms to let." Demand for safe, clean housing led to the creation of multi-family units and apartments.
+
+MAIL-ORDER SOLUTIONS
+The kind of manufacturing that drew migrants to cities during this era also scaled up to meet the residential sector. Several mail-order companies, such as Bay City, MI-based Aladdin Homes and the Chicago department store Sears, Roebuck & Co., appeared in the market. People could save up the cash to purchase or access financing through the manufacturer for an entire home, which would arrive on a railcar ready for construction by the buyer or locally hired skilled trades. Casually and without fanfare, these manufacturers also offered a modest array of "two-family houses" or small apartment fourplexes alongside small cottages, mid-sized models, and spacious single-family homes.
+In 1913, the Sears Model "No. 130" was described as "a four-family apartment house with four rooms for each family that can be built at a very low cost and will make an exceptionally good paying investment." The floorplan was neatly arranged as if two sets of mirrored shotgun houses were stacked upon one another with common wet walls, connected by a central hall, skinned with a confidencegarnering brick exterior, and accessed by a singular entry door on a shared porch.
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 11
+
+According to Buying Home, Selling America: the House Catalog, 1906-1966, an exhibit on view at the Clark Research Library at the University of Michigan in 2021, there were many Michigan connections to the mail order housing industry. In the pre-Depression years, "evidence of Michigan's building boom" could be found
+
+in house models and the companies designing them. Some models were laid out for lots only 30 feet wide. This narrow width is unusual in most towns, but typical in Detroit and other heavily urbanized cities, whereas the majority were envisioned for more expansive lots of 50 feet or more.
+
+Aladdin Homes, based in Bay City, was a large kit home producer with model names like "The Detroit," "The Woodward," and "The Michigan." The University of Michigan exhibit went on to state:
+Bay City, [Michigan,] situated at the mouth of the Saginaw River, was a hub of the mail-order house industry. This was not by chance, because Bay City was by the mid-19th century a national center of shipbuilding, home to and supported by an infrastructure of lumber yards, sawmills, and skilled workers. Three of the major national kit house companies, Aladdin company, Liberty Homes, and Sterling Homes, operated out of Bay City. Together these three companies sold almost four times as many homes as the Sears, Roebuck and Company.
+
+A popular model offered by Aladdin Homes was simply named "The Duplex." Created in response to significant demand for two-family houses, this floorplan enabled its owners to "live in one part [of the house] and secure a good rental from the other" with a "return which is consequently much greater than if [they] had built two separate houses."
+
+Once constructed, most duplexes or four-family homes blended seamlessly with their neighbors. While the value of accommodating two or four households in one urban lot was sold as a sound investment, the visuals of unobtrusively fitting into the residential landscape were accomplished with form, massing, and siting nearly indistinguishable from single-family homes.
+
+12 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+100'-0"
+
+WRITTEN OFF THE MAP
+With the arrival of Euclidean zoning in many American towns by the mid-to-late 1920s and the connoted moral superiority of R1 neighborhoods, the ability to slide multi-family units into urban and suburban lots was written out of the playbook. In subsequent decades, the adaptation of larger single-family housing units to multi-unit housing has continued to occur naturally and sometimes covertly in both urban and suburban landscapes.
+Despite their pragmatic approach, these kinds of functional adaptations to market needs are still, with rare exceptions, essentially outlawed. While some have been permitte5d0'-t0o" remain as non-conforming uses pre-dating current zoning code, others have been grudgingly allowed by zoning boards on a case-by-case basis. These factors, combined with loan products focused on singlefamily housing and the higPMaihcttheigrcnaonBoMsoutknFiocoipufar lnULneeiat wgPuroetm otypue lti-family construction unsupportable outside of MthaineLelvuelxury market, have created a vacuum in housing choice options9efaJosutnraer,ab2o0rs2a2urchbitescttuarential portion of Michiganders.
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 13
+
+WHAT WE NEED NEXT
+
+Michigan's cities continue to grapple with vacant lots yielded from Recession-era blight demolitions, blank parcels never developed within municipal boundaries, and a lack of activity for creating by-right accessory dwelling units (ADUs). Such undercapitalized land assets present the opportunity to develop new housing units ­ and create future taxable revenue with increased density ­ while availing of municipal investments already sunk into public transit and non-motorized corridors, as well as standard roads, water lines, and sewer infrastructure.
+Currently, most of Michigan's housing stock ­ approximately 70% ­ is single-family housing, the ideal of the post-World War II era. Meanwhile, the average household size continues to shrink ­ from 4.5 individuals in the 1960s to 2.5 individuals in the 2020s. The need for expansive, multi-bedroomed
+
+residences has waned. With 47% of all housing units constructed prior to 1970, it's also clear that new construction has not kept pace with the kinds of housing types needed by our population. Related to this shift is the demand for a specific type of housing ­ smaller (2,000 sf or less) missing middle ­ in the workforce price range of 80% to 120% of Area Median Income (AMI).
+Parallel to these conditions, of pressing concern, is the reality that household incomes have dropped or failed to realize net gains over time. Meanwhile, demand for housing units within the affordable or attainable cost range has markedly increased. The need for varied and diverse housing options ­ beyond the default of single-family housing ­ is being expressed by an increasing number of households. Market appetite is far outpacing the current supply in cities. Reasons for the desirability
+
+14 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+One option for what we need again is, in fact, hidden in plain sight, in the form of these multi-family housing solutions to age-old housing needs.
+
+of smaller scale, attainable housing are varied ­ from a pragmatic desire to keep housing overhead low to the struggle to find accommodations within reach for a broader range of income levels. Such lifestyle choices are also often attached to reliance on public transit (by need or by choice), limited funds for a new household, intentional downsizing, the establishment of multi-generational housing arrangements, or simply the desire to reduce a carbon footprint.
+Michigan communities are also becoming more diverse, with heightened demand for a more comprehensive menu of housing choices fueled by economic mobility, intentionally inclusive public policies empowered by increasing demands for social justice, and the persistence and success of multiethnic households. These trends are in direct contrast to the history of redlining and racism still evident on our landscapes. In the early twentieth century, and even more visibly in the Post-World War II Era, the messaging of housing catalogs, both implicitly and explicitly, focused solely on the white householder. When people of color entered the housing market, they faced opposition, discouragement, and hostility. While unfair housing practices were legally challenged and rolled back by the
+
+Civil Rights Act of 1968 (Fair Housing Act), segregation and discrimination persisted for decades and remain visible on the landscape. They remain evidenced in marginalized communities and artificially stagnant housing markets in many Michigan communities. Creating new multi-unit housing units within existing neighborhoods will contribute to the variety of housing choices, increase financially attainable options, and foster the persistence of residents of all backgrounds and socio-economic statuses.
+Two decades into the twenty-first century, a fraction of Michigan's historic multi-family units remain standing. It was not that these pragmatic housing solutions fell out of fashion; they were written off of the landscape by the perceived superiority of single-family housing. While the big house on a large lot may work for some, it is not the solution for everyone. One option for what we need again is, in fact, hidden in plain sight, in the form of these multi-family housing solutions to ageold housing needs. Shifting zoning up to allow for the kind of neighborhoods which already exist and function well could, perhaps, begin to allow the housing sector to respond to current needs.
+
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 15
+
+PART II
+ENABLING THE NEIGHBORHOODS WE DESIRE
+
+"IN THE UNITED STATES, IT WOULD SEEM THAT DIVERSITIES OF STYLE AND STRONG CONTRASTS OF ARCHITECTURAL DESIGN ARE A PERFECTLY NATURAL OCCURRENCE."
+­ Calvert Vaux, architect and landscape designer, co-creator of New York's Central Park
+
+In keeping with the philosophy of Michigan's Redevelopment Ready Communities program, this guide focuses on making the development you want in your community the development that's easy to do in your community. Many of our current zoning codes still show their roots in the suburban construction boom after World War II. These codes were focused on managing the rapid construction and first life cycle of largescale, generally uniform residential subdivisions and shopping centers. Unfortunately, these codes reinforced the standardization of homes within a neighborhood, limiting both diversity of choices and the ability to adapt homes over generations and discouraging the inclusion of duplex and quadplex homes.
+
+These codes were also applied retroactively to many existing traditional neighborhoods, where they were ill-suited to the range of home types already present, and to the fine-grained scale of these neighborhoods. By preventing new construction of these options and pushing existing examples towards conformity, our codes have constrained the options available to residents. Approaches to re-enabling our traditional neighborhood patterns can take three forms: neighborhood zoning repair, coding to permit desired home patterns, and pre-approved building plans.
+
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 17
+
+NEIGHBORHOOD CODE REPAIR
+A neighborhood repair approach can be taken in areas where the homes predate the codes currently regulating them. This strategy focuses on pruning back incompatible codes that have grown over and constricted the neighborhood over time. In addition to enabling infill construction of a range of home types that fit the history of the space, this approach has the added benefit of bringing existing examples back into conformity, making investments to preserve or rehabilitate those homes.
+In communities with these older neighborhoods, the code repair option can be an easy first step: it prioritizes the existing built fabric of the community over the current regulations, and residents generally tend to like their neighborhood better than their zoning ordinance.
+To identify the restrictions or pain points in your code that conflict with traditional patterns, use a mix of consultation with your building and zoning staff, neighborhood residents, and local builders or architects; a review of assessing and GIS parcel data; or a visual survey of properties in the neighborhood.
+18 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+COMMON PROBLEMS TO LOOK FOR IN YOUR CODE, AND POTENTIAL NEIGHBORHOOD-SCALE FIXES, INCLUDE:
+MINIMUM LOT WIDTH AND AREA
+Traditional neighborhoods include a mix of lot sizes, many of which are smaller than current minimums in zoning. Consider reducing lot width and area minimums in the code to match the smaller lots in the neighborhood. Alternately, if your code declares that all originally platted lots are considered conforming, make sure that language does not include an adjacentownership restriction or limit the property's use to a single unit detached house.
+SETBACKS
+Post-war front and side setbacks are often inappropriately large for traditional neighborhoods and
+
+a frequent source of variance requests or denied permits. Review side setbacks against existing homes to determine whether smaller setbacks are more appropriate to existing neighborhood patterns. Allow new construction to match the front setback of existing homes by setting a build-to zone based on adjacent homes, such as the average of the existing front setbacks on the block +/- five feet.
+DENSITY AND DWELLING SIZE
+Lot size, height, setback, and lot coverage standards address building bulk, and building and fire codes handle health and safety concerns within buildings. Remove redundant standards that limit housing flexibility without improving development character, such as per-lot density standards (including minimum lot area per unit) and minimum per-unit floor area requirements.
+
+PERMIT A MIX OF HOME TYPES
+Use neighborhood precedents to consider what home types to permit by-right, such as ADUs, duplexes, fourplexes, or small townhome blocks. Re-enable these traditional uses throughout the neighborhood, on particular street frontages, or on corner lots.
+FIX PARKING REQUIREMENTS
+Zoning standards often cause parking to dominate a parcel, especially for multi-home development. To prevent unnecessary excess parking, eliminate residential parking minimums, or reduce them to 1 off-street parking space per home.
+Focus standards on the location, not amount, of parking to support the neighborhood: require parking access via alleys or side streets, where parcels have access to these; prohibit front yard parking; and
+
+require that the front façade of garages be set back at least 20 feet from the front façade of the home.
+PERMIT ADDITIONAL RESIDENTIAL BUILDINGS ON LARGER PARCELS
+In some cases, a parcel may be large enough to host two or more of the pattern home buildings offered here. Depending on the site, these may be side-by-side twins or mirror images; a front/back pair; or a "duplex court" of three or more buildings arranged in a U-shape around a central green shared.
+Identify barriers to these arrangements in your code, such as requirements of only one residential structure per property, prohibitions against placing one residential structure behind another on a site, or build-to language that would require all homes to be within a certain distance of the front lot line (versus only the frontmost home).
+
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 19
+
+CODING TO SUPPORT DESIRED PATTERNS
+
+Each duplex and fourplex home pattern presented in this guide can be used as a target for code updates in any neighborhood. Building these may be the next step after code repair in a historic neighborhood to encourage compatible infill on individual vacant lots or can be applied to any area where additional home types are desired. We have examined many of the same code standards discussed in the repair approach addressed in the Users' Guide to Code Reform, but with specific targets of desired new-build home types in mind, rather than relying only on existing buildings.
+
+The home patterns are presented with dimensional information that can be used to "stress test" an existing code--to identify and correct obstacles in the current zoning before a homebuilder encounters them. This can be a valuable exercise for local staff to perform with the Planning Commission and ZBA or with neighborhood residents to show precisely why the existing code needs adjustment, rather than simply presenting changed numbers.
+
+In North America, a duplex is a building divided into two separate living spaces. Most duplexes are built with the two homes side by side, although you can also live in a duplex with apartments on two floors. The Latin duplex means "twofold," from duo, "two," and -plex, "to intertwine." The word was coined in the U.S. around 1922.
+
+20 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+In that step of updating the code, the goal is to establish the desired home patterns as permitted / by-right construction that can be approved administratively in the same fashion as a singleunit house. Removing only some barriers while still requiring the home to receive variances, special land use approval, or a similar step does not achieve the goal of making desired development easy.
+Additionally, this stress test process should be focused on the purpose of enabling identified home types. While there may be the temptation to add new constraints or limitations simultaneously, that brings the risk of trading off old barriers for new, rendering additional homes non-conforming.
+
+To stress-test a local zoning code:
+1. Select the home patterns desirable in a particular neighborhood.
+2. Identify several sample parcels in that neighborhood. Ideally, these would include a few different parcel sizes and corner and mid-block options, as well as parcels with and without alleys, if these exist. A focus on currently vacant parcels or side lots is reasonable, but the process should also consider whether these represent the neighborhood as a whole.
+3. Attempt to site each of the home patterns on each sample lot in a sketch plan, documenting any points at which the existing zoning standards would block construction or require a variance or other discretionary approval.
+4. Amend the code to remove those barriers.
+
+OFFER PRE-APPROVED BUILDING PLANS
+Some communities are taking the step of pre-approving specific building plans for neighborhood construction. Under this approach, the municipality offers a library of construction plans that have already undergone review by the local code official and designates areas where those specific plan sets may be used. This designation may be simply highlighting neighborhoods with compatible zoning and dimensional standards or may potentially be written into the zoning code. For example, the city of Bryan, TX, specifically lists their pattern buildings as permitted uses in an overlay district applied to the area where this development is desired.
+A builder may then use one of the pre-approved plansets for their project rather than incurring the time and financial expenses of having new plans drawn up and reviewed by code officials.
+This does not completely eliminate code review, but it does provide significant savings--both on the developer's side and in the municipal administration of plan review.
+22 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+Some steps still remain for review:
+1. The builder may still need to have their individual copy of the plans stamped by an architect; this can either be an individual builder's responsibility or a service the municipality contracts with a designated architect to provide.
+2. The placement of a pre-approved building on a specific site must still have setbacks, etc., verified.
+3. Controls like wetland or steep slope protections or stormwater management requirements should be maintained.
+In addition to the patterns included in this guide, communities may also consider adopting plans created independently by other municipalities (such as those linked in the "Additional Resources" section) or having their own prepared.
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 23
+
+PROVIDE BY-RIGHT ADMINISTRATIVE APPROVALS
+Regardless of what combination of the above methods is used, the desired homes should be able to receive approval through an administrative process, without the need to seek variances from the ZBA, site plan reviews by the Planning Commission, or any action by the local elected body. All of those processes add both time and uncertainty to the task of creating new homes, which reduces the number of homes built, increases the cost of every new home created, and cuts smaller, neighborhood-scale developers out of the process.
+Again: Every additional review process or body engaged keeps your community further from that goal.
+24 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+If you want your neighborhoods to add small-scale, fine-grained, context-sensitive new homes like those discussed here, make it easy for developers to build those homes.
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 25
+
+EYES ON THE PRIZE
+Thoughtfully designed landscapes don't occur by accident. Walkability is central to contemporary conversations on community and economic redevelopment in neighborhoods of all sizes across the state. This is also true in peer communities around the United States. The ability to easily pop into the local craft brewery, bike to the market, or for your kids to walk to school is prized by those who are also in the market for newly constructed housing options. Well-managed population density leads to sought-after communities with a strong economic core that improves property values over time. The drawback is that when cities invest in residential construction in their downtown areas, it is often compounded by a costly permitting and site plan approval process that adds significantly to the cost of construction of higher-density housing units.
+
+Many of the same reasons that Michigan is ill-equipped to handle growth are the very same reasons that the costs of new construction are so high in this state compared to others. Michigan's classic strategy over the past decades has been to expand outwards with new greenfield construction on an auto-oriented landscape ­ whether we're growing on net or not.
+Michigan has expanded its developed land area by 50% in 30 years, a greater than 5:1 ratio of infrastructure expansion to population growth.
+
+Adding infrastructure so much faster than growing our population of people to pay for it means that the cost of that infrastructure is drastically increased. Unsupported and often unnecessary outward expansion directly impacts the cost of doing business in Michigan. The growing scarcity of land leads to increased costs for buildable lots, which, in turn, increases the baseline cost to build new.
+Making small changes to enable the introduction of gentle density in our already developed neighborhoods is a thoughtful and low-cost strategy to concentrate reinvestments in our communities and utilize infrastructure already in place. Layering in additional housing units and relying upon the precedents of form, massing, height, lot placement, and other careful design elements can accomplish what was done decades ago: welcoming in more neighbors, hidden in plain sight.
+
+26 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 27
+
+PART III
+DESIGN & FINANCIAL CONSIDERATIONS
+
+CRITICAL REGIONALISM FOR MICHIGAN
+
+When approaching the idea of home, we acknowledge that housing comes in many formats. Referencing the broad array of manuals available for Accessory Dwelling Units (ADUs) and the need already met in that sub-set of housing formats, the design problem for this project has centered specifically on Duplexes and Fourplexes.
+Grounding in block-level context is critically important when building new housing that blends seamlessly within a single-family format dominated landscape. How a house presents itself visually is of eminent importance for its lasting impact on the landscape. How does a building touch the sky? How does it connect to the ground? How is it accessed from the street? Are there easily comprehensible entries, and does it invite sociability?
+In the case of this project, we also asked: Does it look like it's in Michigan?
+
+For each model shown in this manual, several optional skins of varying styles are presented for customization on the building site. The design team's intention has been to illustrate a selection of options and design choices that can be applied to each floor plan. For those exterior appearances, the design team set forth intent on authentic emulation of historic pattern books and kit homes. This work is also done with a healthy dose of respect for the building traditions found in existing neighborhoods; a contextual approach is often called critical regionalism. The idea of critical regionalism in architecture is rooted in the modern tradition, and it is tied to geographical and cultural historical context. In observing these elements, we identified key components which make a dwelling functional, comfortable, and visually compatible with the common housing types in this region. We have employed a progressive approach to design that seeks to mediate between the global and the local languages of architecture.
+
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 29
+
+We also acknowledge that the current housing stock was created through historic design influences and shifts in building technology. At the turn of the twentieth century, manufacturing led to streamlining house construction. The Victorian Era and its complex hallmark, Queen Anne/Folk Victorian, gave way to more restrained derivations, including the balloonframed Free Classic, built with more readily available dimensional lumber milled with industrial equipment. Ornamentation slimmed down or disappeared. Commonly seen in an upright and wing or gablefronted or gable-dominant ell format, this housing form was so ubiquitous that it was thus named "The Michigan" by Aladdin Homes in 1914.
+While Tudor Revivals, Craftsman Bungalows, Georgians, and Dutch Colonial Revivals made a heavy showing in Michigan neighborhoods during the early decades of the twentieth century, with a few notable exceptions, a relatively small number of exotics, such as Mediterranean Revivals or Art Deco style made
+
+their way into Michigan's middle-class domestic architecture. In contrast, Midwest born and bred, the Prairie style is native to the region.
+These dominant styles and related forms have colored the plans presented in this manual.
+The models presented here are intended primarily as discrete infill for vacant lots laid bare by blight removal or lots never built up. They can also be built as part of a more significant undertaking for many new housing units constructed at once. In either case, the construction of these new housing units will enrich the physical characteristics of a residential area.
+
+30 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+In considering the existing conditions of neighborhoods in Michigan communities, the design process for these models has also given careful deference to the Secretary of the Interior's Standards for Rehabilitation. This set of guidelines is recognized at the national level as the measure by which most historic district commissions evaluate alterations to historic properties or new infill in designated districts. To be clear, if a lot is selected for building one or more of the models presented in this manual and is located in a local historic district covered by a local ordinance, the design review process is conducted at that community level by the local historic district commission.
+
+The models outlined in this manual are artifacts of their time. Once constructed, they will be visibly new construction that reflects historic antecedents.
+Per Secretary's Standard #9, "New additions, exterior alterations, or related new construction shall not destroy historic materials that characterize the property. The new work shall be differentiated from the old and shall be compatible with the massing, size, scale, and architectural features to protect the historic integrity of the property and its environment."
+
+Regardless of the local historic district status of future building sites, the design process has held close to the fundamental principles of compatible building form and careful lot placement.
+Per Secretary's Standard #3, "Each property shall be recognized as a physical record of its time, place, and use. Changes that create a false sense of historical development, such as adding conjectural features or architectural elements from other buildings, shall not be undertaken."
+
+The models in this manual echo current housing forms, size, scale, and massing. Once built, they will increase density and strengthen walkable, downtown adjacent neighborhoods. In doing so, they will perpetuate visual cues consistent with residential building stock in Michigan and the Great Lakes Region.
+
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 31
+
+HACKING THE COSTS OF CONSTRUCTION
+The need for more housing units of all types remains palatable in nearly every Michigan community and is hindered by increasing costs.
+New construction is expensive in not only the case of private housing but also in the public and corporate housing sectors. According to the Michigan Statewide Housing Plan, affordability remains a significant barrier in Michigan. Before the Covid-19 Pandemic, 48% of Michigan renters and 18% of homeowners paid more than 30% of their monthly income for housing. Between January 2013 and October 2021, the average sales price for a home in Michigan increased by 84%. During that same period, the asking rent for a Michigan apartment increased by 20%, with the highest increases registered in mid-market properties most likely to contain affordable units.
+32 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+Rising and fluctuating costs of materials create uncertainty. Even when new housing options are approved and encouraged, the most desirable housing choices come with a high price tag that pushes costs into the luxury market. The scarcity of a skilled labor force to build and rehab housing also comes into play, with insufficient capacity to meet demand. And, with a few notable exceptions, attempts to increase the labor force are faced with struggling or stagnating trades and apprenticeship programs. Nevertheless, current housing market reports show that the supply and demand curve remains in full effect. When supply is low and demand is high, then prices increase. Thus, in Michigan, we have an increased unmet need for skilled labor and supply chain challenges for material, leading to higher construction costs.
+
+This is not a new problem to address. Land and materials costs, labor supply, and the permitting and site plan approval process add significantly to the construction cost of higher-density housing units.
+These three core variables create barriers to success for the kinds of projects ostensibly needed by Michigan residents. The trick is understanding exactly what the costs are and the impacts contributing to this high-cost environment in Michigan, then addressing what can be changed head-on.
+
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 33
+
+DESIGNING-IN COST REDUCTIONS
+The models in this publication embody a pragmatism focused on attainable building costs. However, the plans and materials proposed are not cheap. Early on, design sacrifices were made to generally keep costs down where possible and focus resources on maximizing square footage and efficiency of the layout.
+1. REDUCED PARKING MINIMUMS The site plans presented in this publication provide minimal parking accommodations. Working in coordination with our best practices zoning recommendations, off-street parking is offered for only one car per unit. If the chosen lot has alley access, a rear-loaded access point would be preferable, not only for design considerations and lot maximization but also to reduce the cost of concrete in pouring parking pads. Similarly, no garages are depicted in these site plans. While garage(s) can most certainly be constructed at the discretion of local implementors, either during initial construction or as a later site addition, this type of structure does not figure into our designs, and substantial costs are saved as a result.
+
+2. BUDGET-CONSCIOUS FOUNDATIONS
+None of our presented designs are depicted on a basement foundation. While basements are common in Michigan, their excavation and construction are additional costs that can be reduced by choosing a raised foundation of concrete blocks. This alternative provides height comparable to adjacent existing housing without incurring the price of a full basement. It also creates an accessible crawl space that can be insulated for energy efficiency and can house separate HVAC units if additional storage space is desired in each unit. Of course, a basement can be built at extra cost if desired.
+
+3. MODEST INTERIOR FEATURES
+Fireplaces and built-in shelving, traditionally associated with many pattern book and kit homes from the pre-World War II era, are missing from these models. Such features are nice to have and, in some cases, can be fitted into the space at a later date, and they are not necessary at the initial outset in setting up functional living spaces.
+
+OTHER COST CONTAINMENT STRATEGIES
+
+The cost for constructing these models can be somewhat contained through the following strategies.
+
+2. OPTIONAL FINISH LEVELS
+Housing units can be constructed at various finish levels. A pared-down building gets built. It can be upgraded over time. Cheapest is not best, however, and guidance is offered in the Options Sheet on choosing durable exterior and interior detailing of moderate quality that will be a wise investment in the long run.
+
+1. SAVVY LAND ACQUISITION & READY ZONING
+Keeping costs within an attainable range is predicated on the expectation of low or no-cost land acquisition, the reduction of permitting fees, and the preparation or identification of likely development sites by implementing zoning updates, as discussed in Part II of this guide. Municipalities can reduce or eliminate land costs by utilizing vacant lots created by blight removal, brownfield remediation, or historic undercapitalization. Sale by the municipality, landbank authority, or non-profit entity for little or no cost could substantially reduce the overall project costs.
+
+3. INCREMENTAL EXPANSION
+Getting the core block of the building constructed is the first step to providing the basics of shelter. Like the existing neighborhoods these models seek to emulate, contextually sensitive and naturally occurring additions of additional bedrooms, bathrooms, and other living spaces are entirely valid options. Such incremental growth is typical of many housing types, persisting because they break down the cost of construction over time and can be initiated as household needs grow and change.
+
+36 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+4. LOCAL INCENTIVES FOR CREATIVE FINANCING PACKAGES
+
+Despite the cost containment strategies outlined here, due to rising materials and labor costs, the average total capital outlay to build these models still far exceeds the attainability range for residents of nearly every community in Michigan. In the face of such discouraging odds, community leaders can take action to reduce overall project costs by partnering
+
+with non-profit and private developers and employing their toolkit of financial incentives at the local level. Local leaders can also lend their endorsement of projects and advocate with lenders to utilize or create loan products that enable this form of new housing creation.
+
+By layering additional incentives within the developer's complex capital stack, the overall per-unit cost can be reduced, thus reducing the minimum sales or rental price point. These tools include, but are not limited to, the use of the following:
+
+· Tax Increment Financing (TIF)
+· Brownfields & OPRA (obsolete property rehabilitation act)
+
+· Local Bonds & Millages
+· CDBG (community development block grants)
+
+· Strategic Funds · Neighborhood Enterprise Zones · Community Land Trusts
+
+By placing housing as a high priority and leveraging multiple tools in both zoning and creative financing, community leaders can assist builders and developers with bringing the costs of construction closer to the range of attainability for Michigan households. In the end, an investment in creating new housing units is a win for local tax revenues. More importantly, it has a lasting impact on a community's ability to welcome and retain residents.
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 37
+
+ELEMENTS OF DIGNITY AND COMFORT
+In contrast to the cost reduction measures deployed, several key features that contribute daily to residents' quality of life have been designed into these models.
+SEPARATE ENTRIES
+Covered entry for each unit to shelter f rom the elements, provide a landing place for residents and guests, and create a separation between exterior and interior with a natural rain/snow/wind sifting. For each model shown, a formal entry has been planned for at least one unit from the front of the home, supporting visual fit with neighboring residences.
+38 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+ACCESSIBILITY
+The patterns presented are all stacked flats rather than side-by-side or townhome units. This allows the first-floor units to be fully accessible without stairs, adding muchneeded options for residents with mobilitylimiting conditions or seeking aging-in-place options. All doorways are compatible with universal design standards. Where possible, accommodations have been made to leave open the optional installation of ramps at outdoor entrances and grab bars in bathrooms.
+FIRE SEPARATION
+The unit is built with complete fire separation, including rated walls in both duplex and fourplex. The fourplex includes the addition of sprinklers in compliance with current IBC: while this could be avoided with townhome-style units, that interior layout did not address other design constraints.
+
+SOUND BAFFLING
+Sound buffering between units has been accomplished by careful stacking of service areas. Firewalls/fire separations have been created and enhanced with additional insulation.
+SEPARATE HVAC UNITS
+The design team placed the highest value on the assurance of complete air circulation separation for comfort and code compliance and the ease of individual billing ability per unit.
+IN-UNIT WASHERS/DRYERS
+Nearly standard in all contemporary new construction is the amenity of a clothes laundry. Each unit has an individual, not community shared, washer/dryer unit.
+
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 39
+
+INTERIOR AND EXTERIOR MATERIALS SELECTIONS
+
+The design process and considerations endeavored to set forth a menu of options to visualize a few floorplans with a variety of interchangeable skins. While the level of detail presented is more complex, the user can peel back finish levels to result in a more pared-down version of the design without sacrificing the bones of the building.
+Generally, materials selections are provided at a grade level that will not adversely affect the attainable cost approach of the model yet still have fidelity to the core belief that durable, repairable materials will last longer and be a better investment over time. Alternate exterior materials are illustrated on the Options Sheet but are not detailed comprehensively within the drawing set. Given other design sacrifices made in the modeling process, it is implied that
+
+the cheapest materials should be avoided. More explicitly, cladding choices such as HardiPlank clapboards or shingles, stucco, and/or masonry veneer are far preferable to vinyl or other lowend finishes due to their durability, repairability, and environmental impact. Roofing should be dimensional asphalt shingles.
+Similarly, the construction documents generally assume interior selections from a mid-range list for counters, floors, trim, and molding types.
+
+40 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+PRICING ASSUMPTIONS
+
+During the programming phase, it was determined that, given the construction cost at the time of publication in mid-2022, the residential units would be market-rate products, possibly reaching attainable pricing in some markets with simplified details and careful material selection.
+While it is possible to reduce or increase costs due to variances in materials choices, fluctuations
+
+in labor costs, or other financing constructs, we established a baseline for the sake of estimation. We used a unit cost of $250/sf for mid-grade materials, resulting in building costs of approximately $500,000 for the Duplex and $915,000 for the Fourplex. We remain sensitive to fluctuating materials and labor costs ­ these numbers are current estimates as of May 2022.
+
+Duplex
+
+UNIT AREA
+
+ESTIMATE ACTUAL UNIT COST 1,000 SF 999 SF $249,500
+
+COSTS
+
+BUILDING AREA
+
+2,000 SF
+
+1,998 SF
+
+$250/SF
+
+$499,500
+
+Fourplex
+
+UNIT AREA
+
+ESTIMATE ACTUAL UNIT COST
+
+900 SF
+
+833 SF $228,750
+
+COSTS
+
+BUILDING AREA
+
+3,600 SF 3,660 SF
+
+$250/SF
+
+$915,000
+
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 41
+
+PART IV
+SCHEMATICS
+
+BUILDING ASSUMPTIONS
+
+MML PATTERN BOOK I Schematics
+
+Our goal was to coordinate the appearance of the buildings with the anticipated context of singlefamily, detached residences. The buildings have been designed to reflect construction details found in the Great Lakes region. We composed or detailed the buildings where feasible to suggest that the building has developed over time to fit its neighborhood's context.
+
+Schematic designs were developed with a basement or partial lower level for mechanical equipment. However, accommodations have been anticipated for slab-on-grade or crawl space construction with in-unit mechanicals.
+· The Options Sheet notes where barrierfree entry ramps may be located within the 50'x100' design parcel. The assumption of rear-yard parking includes ramps aligned for convenient access from that direction.
+
+· Some items Schematics I 14 April 2022 are indicated as blanks for local calibration--some aspects of the plans cannot be one-size-fits-all, especially in a state with 400 miles of north-to-south variability in climate. This calibration includes items such as footing depth, R-value of insulation, and roof truss sizing for snow load--individual communities may opt to perform this calibration once for their local copy of the construction plans rather than leaving it to be repeated by each builder.
+
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 43
+
+Location Map
+No Scale
+
+1
+
+Duplex
+The duplex pattern was organized with one primary door on the front façade, facing the street, for the firstfloor home. The secondary door is located on the side but near the front of the building and is also oriented toward the street. It is detailed to offer equal dignity to the upstairs resident.
+The table shows how this pattern may interact with various standards found in zoning codes, including the minimum values needed to enable this home on different lot sizes, including lots both smaller and larger than the design assumption.
+Michigan Municipal League
+As noted in the zoning recommendations section,PasttoernmBoeok Duplex Prototype Upper Level
+standards may be found in local zoning ordinances 10 June, 2022
+that are redundant with the form and placement east arbor architecture standards discussed here, that conflict with the goal of enabling housing, and that are too abstract to provide meaningful regulatory value. We recommend that FAR (floor area ratio) and dwelling unit density standards in particular be avoided in neighborhood contexts, or removed where they currently exist.
+
+50'-0"
+
+28'-0"
+
+12'-0" 5'-0"
+
+28 ft*
+BUILDING WIDTH
+
+44 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+5'-0
+
+2
+HOMES
+1,998 ft2
+TOTAL FLOOR AREA
+1,064 ft2
+TOTAL FOOTPRINT
+
+12'-0" 5'-0"
+
+28'-0"
+
+5'-0"
+
+50'-0"
+
+10'-0" 5'-0"
+
+38'-0"
+
+B
+
+Rendering
+No Scale
+
+38 ft*
+BUILDING DEPTH
+
+Duplex Pattern
+
+Building Coverage by Lot
+Depth
+
+3 2 Interior Elevation
+A3 Sheet Number
+Vertical Elevation
+A Window Call Out
+Density1 (uDnooirtCsall Out per net1 acNrotee C)all Out
+
+40 FT LOT WIDTH
+
+100 ft: 27% 110 ft: 24% 120 ft: 22%
+50 FT
+100 ft: 22% 110 ft: 20% 120 ft: 18%
+
+LOT
+
+ABBREVIATIONS
+
+100 ft: 22 AB
+
+Anchor Bolt
+
+AC
+
+Air Conditioning
+
+110 ft: 20 A/C
+
+Asphaltic Concrete
+
+ARCH Architectural
+
+GALV GLB GYP HVAC
+
+120 ft: 18.5 BLK'G CMU CONC
+
+Blocking
+
+HRV
+
+Concrete Masonry Unit HB
+
+Concrete
+
+HC
+
+CONT Continuous
+
+HDR
+
+DBL Double
+
+HORIZ
+
+WIDTH DET DF
+
+Detail Douglas Fir
+
+INSUL INT
+
+DS
+
+Downspout
+
+MAX
+
+DW
+
+Dishwasher
+
+MC
+
+100 ft: 17.5 EA
+
+Each
+
+EQUIP Equipment
+
+MFR MIN
+
+(E)
+
+Equal
+
+NTS
+
+110 ft: 16 FF FTG
+
+Finish Floor Footing
+
+OC PLYW'D
+
+GA
+
+Gauge
+
+RO
+
+120 ft: 15
+
+Galvanized Glue Laminated Be Gypsum Heating & Cooling Heat Recovery Ven Hose Bib Hollow Core Header Horizontal Insulation Interior Maximum Medicine cabinet Manufacturer Minimum Not to Scale On center Plywood Rough opening
+
+BUILDING DATA
+60 FT LOT WIDTH
+
+100 ft: 18% 110 ft: 16% 120 ft: 15%
+
+100 ft: 15 110 ft: 13.5 120 DftE:S1IG2N.5CRITERIA
+
+1
+
+Location Map
+No Scale
+
+Lot
+
+Width
+
+40 FT
+
+50 FT
+
+60 FT
+
+Side setbacks needed to enable · Both sides total of < 12 ft · One side < 4 ft · Allow un-enclosed porch to encroach in wider side setback.
+· Both sides total < 22 ft
+· Both sides total < 32 ft
+
+Parking locations
+· Rear-load (alley) · Side-load (corner lot) · Side yard 8 ft. max width driveway
+· Rear-load (alley) · Side-load (corner lot) · Side yard driveway
+· Rear-load (alley) · Side-load (corner lot) · Side yard driveway
+
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 45
+
+Fourplex
+The fourplex building features a frontfacing entrance in the front main unit to fit with the expected neighborhood setting and presents a façade similar to nearby single-unit houses. The primary entrance for other units is on the side façade, allowing a central stairway to access all of the homes in the building.
+The table shows how this pattern may interact with various standards found in zoning codes, including the minimum values needed to enable this home on different lot sizes, including lots both smaller and larger than the design assumption. Note that while the duplex pattern can easily be fit on a 40-foot-wide lot, the dimensions of the fourplex pattern make it difficult to place on such a parcel.
+
+4
+HOMES
+
+3,660 ft2
+TOTAL FLOOR AREA
+
+1,911 ft2
+TOTAL FOOTPRINT
+
+Lot Width
+
+Side setbacks needed to enable
+
+40 FT
+
+· Both sides total < 6 ft
+
+50 FT
+
+· Both sides total < 16 ft · One side < 6 ft if from driveway is needed
+
+50 FT
+
+· Both sides total < 26 ft
+
+46 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+17'-0" 5'-0" Rear Setback
+
+Fourplex Pattern
+
+Parking locations
+· Rear-load (alley) · Side-load (corner lot)
+· Rear-load (alley) · Side-load (corner lot) · Side yard driveway · Rear-load (alley) · Side-load (corner lot) · Side yard driveway
+
+Building Coverage by Lot
+Depth
+
+Density (units per net acre)
+
+10'-0" Front Setback 8'-0"
+
+56 ft*
+
+40 FT LOT WIDTH
+
+BUILDING DEPTH
+
+12'-0"
+
+32'-0" 100 ft: 54'-0"8%
+
+110 ft: 44%
+
+100 ft: 44 110 ft: 40
+
+120 ft: 40%
+
+120 ft: 36.5
+
+50 FT LOT WIDTH
+
+100 ft: 38% 110 ft: 35% 120 ft: 32%
+
+1100 ft: 35 110 ft: 32 120 ft: 29.5
+
+60 FT LOT WIDTH
+
+DRAWING SCHEDULE
+
+A1.0 Site Plan and Key Plan
+
+A2.0 Foundation Plan
+
+AA222..21
+
+LMoacinatFiloonor MPlaanp
+NUo Spcpalee r Floor Plan
+
+A2.3 Roof Plan & Detail Plans
+
+A3.0 Building Section & Wall Section
+
+A4.0 Building Elevations
+
+A5.0 Exterior Details
+
+A5.1 Interior Elevations
+
+S1.0
+34 ft* E1.0
+BUILDINGMW1.0IDTH
+
+100 ft: 32% 110 ft: 29% 120 ft: 27%
+
+east arbor architecture
+eastarbor.com 517.993.8148
+1 Do not scale.
+Use figured dimensions only.
+
+100 ft: 29.5
+110 ft: 26.4 Loca1ti2on0 Mf ta:p 24 . 5
+No Scale
+
+A Rendering No Scale
+
+B Alternate Rendering No Scale
+
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 47
+
+60'-0" 100'-0"
+
+SITE ASSUMPTIONS
+
+Single Site Infill
+The duplex and fourplex patterns included in this manual were prepared with an assumption of 50' x 100' lots as a common lot size in traditional neighborhoods around the state. With careful attention to setbacks, the duplex will fit on a 40' wide lot.
+A minimum side setback of 5 feet allows a 50' parcel to have a front-loading driveway on the wider side of the lot leading to rear parking if alley access is unavailable. Where possible, rear access via an existing or new alley reduces the paving needed on the site, decreasing construction cost and stormwater runoff and heat absorption.
+The provided plans can be mirrored to place the site entrance towards either the left or right lot line. Ideally, the site plan should provide the home with a
+
+larger setback on the side with the door for entry access from a driveway or to a larger side yard. This deeper side yard should be placed facing south or west, depending on lot orientation, to maximize natural light availability to the homes.
+While specif ic measures were undertaken to simplify the building footprints, some adjustments, including site grading, may be necessary to accommodate the building. As with other local variations, the local design professional will need to undertake these adjustments.
+
+48 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+Tackling Larger Sites
+While this guide focuses on a single-parcel infill as the primary use case, these patterns could also be used on larger lots, whether they are a few adjacent infill parcels on a block or a larger site. Having a handful of similar homes in a row is itself a typical historical building pattern and provides some opportunities that a one-off site lacks:
+· Use shared vehicle access points to minimize the amount of space consumed by driveways and curb cuts or create new side street or alley access points.
+
+· Maximize usable green space by mirroring or rotating buildings relative to each other so that entries relate to each other and face a welldesigned common yard area.
+· Employ incremental construction of homes rather than building all at the same time. This method may allow a homeowner-developer to live in the first building and construct the others as financing allows or provide opportunities for the use of these patterns in cooler local housing markets where only a few homes can be absorbed at a time.
+Consider adding architectural variations, such as through color, finish materials, or entry design, when using more than two or three of the same building on a site.
+
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 49
+
+ADDITIONAL RESOURCES
+CONTEMPORARY BUILT EXAMPLES IN THE US
+Bryan, TX, https://www.bryantx.gov/midtownpatterns Chattanooga, TN, https://www.incrementaldevelopment.org/chattanooga Norfolk, VA, https://www.norfolk.gov/DocumentCenter/View/66555/MissingMiddlePatternBook Seattle, WA, "ADUniverse" https://aduniverse-seattlecitygis.hub.arcgis.com Fayetteville, AR, https://www.3vdevelopment.net
+DESIGN RESOURCES
+Building Technology Heritage Library of the Association for Preservation Technology, Int., https://archive.org/details/buildingtechnologyheritagelibrary Flintlock Lab, http://www.flintlocklab.com Incremental Development Alliance, https://www.incrementaldevelopment.org Missing Middle Housing, https://missingmiddlehousing.com Secretary of the Interior's Standards for Rehabilitation, https://www.nps.gov/tps/standards/rehabilitation.htm
+50 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+BOOKS
+The Color of Law: A Forgotten History of How Our Government Segregated America by Richard Rothstein. Liveright Publishing Corporation, 2017. America's Favorite Homes: Mail-Order Catalogues as a Guide to Popular Early 20th-Century Houses by Robert Schweitzer and Michael W. R. Davis. Wayne State University Press, 1990. Houses by Mail: A Guide to Houses from Sears, Roebuck and Company by Katherine Cole Stevenson and H. Ward Jandl. John Wiley & Sons, 1995. Building the Dream: A Social History of Housing in America by Gwendolyn Wright. MIT Press, 1983.
+This Used to be Normal: Pattern Book Homes for 21st Century Michigan 51
+
+east arbor architecture
+1675 Green Rd, Ann Arbor, MI 48105
+52 This Used to be Normal: Pattern Book Homes for 21st Century Michigan
+
+

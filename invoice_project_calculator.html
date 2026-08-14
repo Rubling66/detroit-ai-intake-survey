@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Building Billing Invoice & Fee Calculator | ISUPK Campaign</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #090d16;
+      color: #f8fafc;
+      padding: 2.5rem;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .invoice-container {
+      width: 100%;
+      max-width: 950px;
+      background: #ffffff;
+      color: #0f172a;
+      border: 2px solid #f59e0b;
+      border-radius: 12px;
+      padding: 2.5rem;
+      box-shadow: 0 20px 45px rgba(0,0,0,0.6);
+    }
+
+    .invoice-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 2px solid #d97706;
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .brand-block {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .brand-logo {
+      width: 70px;
+      height: 70px;
+      border-radius: 10px;
+      border: 2px solid #d97706;
+    }
+
+    .brand-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.5rem;
+      color: #78350f;
+      font-weight: 900;
+      line-height: 1.2;
+    }
+
+    .brand-subtitle {
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+
+    .invoice-meta {
+      text-align: right;
+      font-size: 0.88rem;
+    }
+
+    .invoice-meta h2 {
+      font-family: 'Cinzel', serif;
+      color: #d97706;
+      font-size: 1.6rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .meta-badge {
+      display: inline-block;
+      background: #fef3c7;
+      border: 1px solid #d97706;
+      color: #78350f;
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-bottom: 0.5rem;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 1.25rem;
+      font-size: 0.88rem;
+    }
+
+    .info-block h4 {
+      color: #d97706;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.4rem;
+    }
+
+    table.calc-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2rem;
+      font-size: 0.88rem;
+    }
+
+    table.calc-table th {
+      background: #0f172a;
+      color: #fbbf24;
+      font-family: 'Cinzel', serif;
+      padding: 12px 14px;
+      text-align: left;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+    }
+
+    table.calc-table td {
+      padding: 12px 14px;
+      border-bottom: 1px solid #e2e8f0;
+      vertical-align: middle;
+    }
+
+    table.calc-table tr:nth-child(even) {
+      background: #f8fafc;
+    }
+
+    .qty-input, .rate-input {
+      width: 70px;
+      padding: 4px 8px;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+    .item-total {
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .summary-box {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 2rem;
+    }
+
+    .summary-table {
+      width: 350px;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+
+    .summary-table td {
+      padding: 8px 12px;
+      text-align: right;
+    }
+
+    .summary-table tr.grand-total {
+      background: #0f172a;
+      color: #fbbf24;
+      font-size: 1.15rem;
+      font-weight: 800;
+    }
+
+    .summary-table tr.grand-total td {
+      padding: 12px;
+    }
+
+    .print-bar {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 100;
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .btn-action {
+      background: #f59e0b;
+      color: #000;
+      font-weight: 800;
+      padding: 0.65rem 1.35rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .invoice-container { border: none; box-shadow: none; max-width: 100%; padding: 0; }
+      .print-bar { display: none; }
+      .qty-input, .rate-input { border: none; background: transparent; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="print-bar">
+    <button class="btn-action" onclick="window.print()">🖨️ Print Official Invoice / Save PDF</button>
+    <a href="index.html" class="btn-action" style="background: #374151; color: #fff; text-decoration: none;">← Main Website</a>
+  </div>
+
+  <div class="invoice-container">
+    
+    <!-- Invoice Header -->
+    <div class="invoice-header">
+      <div class="brand-block">
+        <img src="assets/logo.jfif" alt="ISUPK Logo" class="brand-logo">
+        <div>
+          <div class="brand-title">DCONSULT CONSULTING SERVICES</div>
+          <div class="brand-subtitle">Project Building, Web Development & Campaign Operations</div>
+        </div>
+      </div>
+
+      <div class="invoice-meta">
+        <span class="meta-badge">OFFICIAL BILLING INVOICE</span>
+        <h2>INVOICE #ISUPK-2026-001</h2>
+        <p><strong>Date:</strong> August 14, 2026</p>
+        <p><strong>Due Date:</strong> Upon Receipt</p>
+      </div>
+    </div>
+
+    <!-- Client & Project Details -->
+    <div class="info-grid">
+      <div class="info-block">
+        <h4>BILLED TO (CLIENT):</h4>
+        <p><strong>ISUPK 501(c)(3) Non-Profit Ministry</strong></p>
+        <p>Attn: Director of Outreach & Communications</p>
+        <p>Mid-Michigan Regional Campaign Hub</p>
+        <p>16134 Moross Rd, Detroit, MI 48205</p>
+        <p>📞 267-353-6021 | 🌐 isupk.com</p>
+      </div>
+
+      <div class="info-block">
+        <h4>PROJECT SCOPE:</h4>
+        <p><strong>Project Name:</strong> Mid-Michigan Outreach & Social Traction Campaign</p>
+        <p><strong>Target Region:</strong> Flint, Saginaw & Genesee County</p>
+
+        <p><strong>Deliverables:</strong> Web Platform, SQLite Database API, 3-Fold Pamphlets, Flyers, Connection Cards, Study Kits & Desktop Delivery Package</p>
+      </div>
+    </div>
+
+    <!-- Project Building Fee Calculator Table -->
+    <h3 style="font-family: 'Cinzel', serif; color: #78350f; font-size: 1.1rem; margin-bottom: 0.75rem; border-bottom: 2px solid #d97706; padding-bottom: 0.25rem;">
+      ITEMIZED PROJECT BUILDING BREAKDOWN & CALCULATOR
+    </h3>
+
+    <table class="calc-table">
+      <thead>
+        <tr>
+          <th width="40%">Service Description & Deliverables</th>
+          <th width="15%">Category</th>
+          <th width="15%" style="text-align: center;">Hours / Qty</th>
+          <th width="15%" style="text-align: center;">Rate ($)</th>
+          <th width="15%" style="text-align: right;">Line Total ($)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <strong>Phase 1: Deep Dive Research & Campaign Strategy</strong><br>
+            <span style="font-size: 0.78rem; color: #64748b;">Comprehensive ISUPK history research, 501(c)(3) campaign proposition evaluation, and $1,000 / 1,000-reach campaign outline.</span>
+          </td>
+          <td>Strategy</td>
+          <td style="text-align: center;"><input type="number" class="qty-input" value="10" min="0" onchange="recalculate()"></td>
+          <td style="text-align: center;"><input type="number" class="rate-input" value="75" min="0" onchange="recalculate()"></td>
+          <td style="text-align: right;" class="item-total" id="line1">$750.00</td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>Phase 2: Glassmorphism Web Platform & SQLite REST API</strong><br>
+            <span style="font-size: 0.78rem; color: #64748b;">Responsive HTML5/Vanilla JS multi-page website, Python server.py REST API, sqlite3 database, and parallax visual background.</span>
+          </td>
+          <td>Development</td>
+          <td style="text-align: center;"><input type="number" class="qty-input" value="25" min="0" onchange="recalculate()"></td>
+          <td style="text-align: center;"><input type="number" class="rate-input" value="85" min="0" onchange="recalculate()"></td>
+          <td style="text-align: right;" class="item-total" id="line2">$2,125.00</td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>Phase 3: High-Level Graphic Design & Print Suite</strong><br>
+            <span style="font-size: 0.78rem; color: #64748b;">3 Landscape 3-fold trifold brochures, 4 single-page flyers, 2-up physical meeting decision close cards, speaker guide, and base64 embedded artwork.</span>
+          </td>
+          <td>Graphic Design</td>
+          <td style="text-align: center;"><input type="number" class="qty-input" value="20" min="0" onchange="recalculate()"></td>
+          <td style="text-align: center;"><input type="number" class="rate-input" value="80" min="0" onchange="recalculate()"></td>
+          <td style="text-align: right;" class="item-total" id="line3">$1,600.00</td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>Phase 4: Social Media Traction Funnel & Phone Script</strong><br>
+            <span style="font-size: 0.78rem; color: #64748b;">3-Stage social media growth funnel strategy, 60-second verbal phone explanation script, and email presentation template.</span>
+          </td>
+          <td>Marketing</td>
+          <td style="text-align: center;"><input type="number" class="qty-input" value="8" min="0" onchange="recalculate()"></td>
+          <td style="text-align: center;"><input type="number" class="rate-input" value="75" min="0" onchange="recalculate()"></td>
+          <td style="text-align: right;" class="item-total" id="line4">$600.00</td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>Phase 5: Standalone Desktop Package & Production Specs</strong><br>
+            <span style="font-size: 0.78rem; color: #64748b;">Organized Desktop ISUPK 3-folder client delivery package, commercial print specs guide, and offline standalone files.</span>
+          </td>
+          <td>Operations</td>
+          <td style="text-align: center;"><input type="number" class="qty-input" value="7" min="0" onchange="recalculate()"></td>
+          <td style="text-align: center;"><input type="number" class="rate-input" value="75" min="0" onchange="recalculate()"></td>
+          <td style="text-align: right;" class="item-total" id="line5">$525.00</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Billing Summary Totals -->
+    <div class="summary-box">
+      <table class="summary-table">
+        <tr>
+          <td>Subtotal Services:</td>
+          <td id="subtotal-val">$5,600.00</td>
+        </tr>
+        <tr>
+          <td>Non-Profit Strategic Discount (15%):</td>
+          <td id="discount-val">-$840.00</td>
+        </tr>
+        <tr>
+          <td>Estimated Print Production Allowance:</td>
+          <td id="print-val">$300.00</td>
+        </tr>
+        <tr class="grand-total">
+          <td>TOTAL AMOUNT DUE:</td>
+          <td id="grand-val">$5,060.00</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Payment Terms & Signatures -->
+    <div style="background: #f8fafc; border-top: 2px solid #e2e8f0; padding-top: 1.25rem; margin-top: 1rem; font-size: 0.82rem; color: #475569; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+      <div>
+        <h4 style="color: #78350f; margin-bottom: 0.3rem;">PAYMENT TERMS & REMITTANCE:</h4>
+        <p>• Payment due within 15 days of invoice date.</p>
+        <p>• Make checks payable to: <strong>DCONSULT Consulting Services</strong></p>
+        <p>• Wire Transfer / Direct Deposit instructions available upon request.</p>
+      </div>
+
+      <div style="text-align: right;">
+        <h4 style="color: #78350f; margin-bottom: 0.3rem;">AUTHORIZED SIGNATURE:</h4>
+        <div style="border-bottom: 1px solid #94a3b8; height: 35px; width: 220px; margin-left: auto; margin-bottom: 0.25rem;"></div>
+        <p><strong>Senior Campaign Strategist & Developer</strong></p>
+        <p>DCONSULT Consulting Services</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function recalculate() {
+      const rows = document.querySelectorAll('table.calc-table tbody tr');
+      let subtotal = 0;
+
+      rows.forEach((row, index) => {
+        const qty = parseFloat(row.querySelector('.qty-input').value) || 0;
+        const rate = parseFloat(row.querySelector('.rate-input').value) || 0;
+        const lineTotal = qty * rate;
+        subtotal += lineTotal;
+        document.getElementById(`line${index + 1}`).innerText = `$${lineTotal.toFixed(2)}`;
+      });
+
+      const discount = subtotal * 0.15;
+      const printAllowance = 300.00;
+      const grandTotal = subtotal - discount + printAllowance;
+
+      document.getElementById('subtotal-val').innerText = `$${subtotal.toFixed(2)}`;
+      document.getElementById('discount-val').innerText = `-$${discount.toFixed(2)}`;
+      document.getElementById('print-val').innerText = `$${printAllowance.toFixed(2)}`;
+      document.getElementById('grand-val').innerText = `$${grandTotal.toFixed(2)}`;
+    }
+  </script>
+
+</body>
+</html>

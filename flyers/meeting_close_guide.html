@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Meeting Close Facilitator Guide | ISUPK Outreach</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background: #0f172a; color: #f8fafc; padding: 2rem; margin: 0; line-height: 1.7; }
+    .header { text-align: center; border-bottom: 2px solid #f59e0b; padding-bottom: 1.5rem; margin-bottom: 2rem; }
+    .header img { height: 70px; margin-bottom: 0.5rem; border-radius: 8px; }
+    h1 { font-family: 'Cinzel', serif; color: #f59e0b; margin: 0.5rem 0; font-size: 2rem; }
+    .subtitle { color: #9ca3af; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .card { background: #1e293b; border-radius: 12px; padding: 2rem; margin-bottom: 1.5rem; border: 1px solid rgba(255,255,255,0.08); }
+    h2 { font-family: 'Cinzel', serif; color: #f59e0b; border-bottom: 1px solid #d97706; padding-bottom: 0.5rem; }
+    .script-box { background: rgba(245, 158, 11, 0.15); border-left: 4px solid #f59e0b; padding: 1.25rem; margin: 1rem 0; font-style: italic; color: #fbbf24; border-radius: 6px; }
+    .print-btn { background: #f59e0b; color: #000; padding: 10px 20px; font-weight: bold; border: none; border-radius: 6px; cursor: pointer; float: right; margin-bottom: 1rem; }
+    @media print { .print-btn { display: none; } body { background: #fff; color: #000; } .card { border: 1px solid #ccc; background: #fff; } h2 { color: #000; } }
+  </style>
+</head>
+<body>
+
+  <button class="print-btn" onclick="window.print()">🖨️ Print Facilitator Guide</button>
+
+  <div class="header">
+    <img src="../assets/logo.jfif" alt="ISUPK Logo">
+    <h1>Meeting Close & Decision Card Facilitator Guide</h1>
+    <div class="subtitle">ISUPK 501(c)(3) Non-Profit • Mid-Michigan Outreach Operational Standard</div>
+  </div>
+
+  <div class="card">
+    <h2>1. Operational Purpose</h2>
+    <p>
+      The <strong>Physical Meeting Close Card</strong> is the primary conversion tool used at the conclusion of all public seminars, pop-up table presentations, and community meetings across Flint and Mid-Michigan. Its goal is to capture participant contact details and study kit requests to reach the Phase 1 target of 1,000 community engagements.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>2. The 60-Second Verbal Close Script (Speaker Protocol)</h2>
+    <p>
+      Instructors and team leads should pause 10 minutes before concluding a presentation, ensure Close Cards and pens are handed to every attendee, and deliver this verbal close:
+    </p>
+
+    <div class="script-box">
+      "Family, thank you for joining us today. Before we wrap up, our team is passing out the <strong>ISUPK Decision & Connection Card</strong>. 
+      <br><br>
+      Take a moment right now to check off the boxes that apply to you. If you want us to mail you our complete printed <strong>12-Tribes Scriptural Poster</strong>, check Box 1. If you want to receive the Zoom link for our Tuesday & Thursday live Bible classes, check Box 2. If you or your family need food or winter clothing support, check Box 3.
+      <br><br>
+      Fill out your name and contact info at the bottom, tear off the decision stub, and hand it to our team lead before you leave. Keep the back portion with our meeting schedule for your records!"
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>3. Post-Meeting Card Processing Workflow</h2>
+    <ol style="display: flex; flex-direction: column; gap: 0.75rem; margin-left: 1.25rem;">
+      <td><strong>Step 1 — Collect Stubs:</strong> Gather all completed decision stubs at the door or table.</td>
+      <td><strong>Step 2 — Database Entry:</strong> Log the attendee details directly into the web database via <a href="http://localhost:8080/contact.html" style="color: #f59e0b;">http://localhost:8080/contact.html</a> or the REST API.</td>
+      <td><strong>Step 3 — Kit Fulfillment:</strong> Mail requested study kits within 48 hours from the Detroit regional hub (16134 Moross Rd).</td>
+      <td><strong>Step 4 — Follow-Up Call/SMS:</strong> Send SMS confirmation with Zoom link prior to Tuesday/Thursday classes.</td>
+    </ol>
+  </div>
+
+  <footer style="margin-top: 3rem; text-align: center; color: #64748b; font-size: 0.85rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem;">
+    Published by ISUPK Campaign Operations • 501(c)(3) Non-Profit • Mid-Michigan Corridor
+  </footer>
+
+</body>
+</html>
